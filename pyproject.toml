@@ -1,0 +1,37 @@
+[project]
+name = "raikuran"
+version = "0.1.0"
+description = "Raikuran: A lightning-fast CLI toolkit for Python and AI/ML developers"
+authors = [
+    { name = "Desenyon", email = "desenyon@gmail.com" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = [
+    "typer[all]>=0.9",
+    "openai>=1.0.0",
+    "rich",
+    "black",
+    "isort",
+    "ruff",
+    "pytest",
+    "twine",
+    "setuptools",
+    "wheel",
+    "streamlit",
+    "fastapi",
+    "uvicorn",
+    "joblib",
+    "numpy",
+    "torch",
+    "tensorflow",
+    "scikit-learn"
+]
+
+[project.urls]
+Homepage = "https://github.com/desenyon/raikuran"
+Repository = "https://github.com/desenyon/raikuran"
+
+[project.scripts]
+raikuran = "raikuran.main:app"

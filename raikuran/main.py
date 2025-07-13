@@ -36,8 +36,6 @@ app.add_typer(package.app, name="package", help="📦 Package and publish your p
 @app.callback()
 def main_callback():
     print(f"\n[bold cyan]Raikuran CLI[/bold cyan] ⚡  [dim]v{__version__}[/dim]")
-    print("[italic]Developer tools for Python, AI/ML, and model deployment.[/italic]\n")
-
 
 if __name__ == "__main__":
     app()

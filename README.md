@@ -32,10 +32,6 @@ git clone https://github.com/desenyon/raikuran.git
 cd raikuran
 pip install .
 ````
-or
-```bash
-pip install raikuran-dsx
-```
 ---
 
 ## ⚙️ CLI Usage
